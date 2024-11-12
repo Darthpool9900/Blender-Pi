@@ -10,18 +10,26 @@ Pode ser feita conexão via wifi utilizando esta api, o blender está configurad
 Todos os testes foram feito em um raspberry pi 4 modelo B com 4gb de ram.
 
 ## Como posso rodar em meu raspberry?
+
 1. Execute:
-	`git clone https://github.com/Darthpool9900/Blender-Pi.git`
+        `git clone https://github.com/Darthpool9900/Blender-Pi.git`
 
-2.Após a instalação do repositório em seu terminal execute 
+2. Após a instalação utilize o comando para a instalção do blender caso não o tenha:
 
-	`npm install`
+        `sudo apt update`
+        `sudo apt install blender`
+>[!NOTE]
+>Esta api funciona apenas com o blender 2.5 ou versão inferior em caso de necessidade de uso de versões mais atuais recomenda-se o uso de flatpak
 
-3. Após a instalação de todas as libs execute:
-	`npm run`
+3.Após a instalação do repositório em seu terminal execute
+
+        `npm install`
+
+4. Após a instalação de todas as libs execute:
+        `npm run`
 
 >[!NOTE]
 >1. Algumas distros para raspberry podem estar utilzando a porta padrão em algum serviços, portando avalie a porta desejada.
 >2. Todos os testes foram feitos em modelagens com menos de 5 mil polígonos, leve em consideração a quantidade de polígonos e configuração de renderização enviada ao arquivo pois você podera sofre super aquecimento em seu aparelho se não for devidamente montado.
 
-4. Para fazer a execução de envios de arquivos pode se utilizar sofwares como postman e insomnia, criar um cliente ou caso seja de prefêrencia pode se utilizar o cliente próprio para isso neste link [aqui]https://github.com/Darthpool9900/next-pi
+5. Para fazer a execução de envios de arquivos pode se utilizar sofwares como postman e insomnia, criar um cliente ou caso seja de prefêrencia pode se utilizar o cliente próprio para isso neste link [aqui]https://github.com/Darthpool9900/next-pi
