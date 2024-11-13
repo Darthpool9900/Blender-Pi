@@ -32,4 +32,5 @@ Todos os testes foram feito em um raspberry pi 4 modelo B com 4gb de ram.
 >1. Algumas distros para raspberry podem estar utilzando a porta padrão em algum serviços, portando avalie a porta desejada.
 >2. Todos os testes foram feitos em modelagens com menos de 5 mil polígonos, leve em consideração a quantidade de polígonos e configuração de renderização enviada ao arquivo pois você podera sofre super aquecimento em seu aparelho se não for devidamente montado.
 
-5. Para fazer a execução de envios de arquivos pode se utilizar sofwares como postman e insomnia, criar um cliente ou caso seja de prefêrencia pode se utilizar o cliente próprio para isso neste link [aqui]https://github.com/Darthpool9900/next-pi
+5. Para fazer a execução de envios de arquivos pode se utilizar sofwares como postman e insomnia, criar um cliente ou caso seja de prefêrencia pode se utilizar o cliente próprio para isso neste link [aqui](https://github.com/Darthpool9900/next-pi
+)
