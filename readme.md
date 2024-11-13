@@ -21,7 +21,7 @@ Todos os testes foram feito em um raspberry pi 4 modelo B com 4gb de ram.
 >[!NOTE]
 >Esta api funciona apenas com o blender 2.5 ou versão inferior em caso de necessidade de uso de versões mais atuais recomenda-se o uso de flatpak
 
-3.Após a instalação do repositório em seu terminal execute
+3. Após a instalação do repositório em seu terminal execute
 
         `npm install`
 
